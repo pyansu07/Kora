@@ -170,7 +170,7 @@ const Plan = ({
                 <div className="p-3 mt- h-auto flex w-full items-center">
                     <Button
                         asChild
-                        variant={id === "pro" ? "default" : "tertiary"}
+                        variant={id === "pro" ? "default" : "secondary"}
                         className="w-full hover:scale-100 hover:translate-y-0 shadow-none"
                     >
 
