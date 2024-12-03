@@ -205,7 +205,7 @@ const SignUpForm = () => {
                             <Button
                                 size="lg"
                                 type="button"
-                                variant="tertiary"
+                                variant="secondary" 
                                 disabled={isGoogleLoading || isAppleLoading}
                                 onClick={() => handleOAuth("oauth_google")}
                                 className="w-full"
@@ -218,7 +218,7 @@ const SignUpForm = () => {
                             <Button
                                 size="lg"
                                 type="button"
-                                variant="tertiary"
+                                variant="secondary" 
                                 disabled={isGoogleLoading || isAppleLoading}
                                 onClick={() => handleOAuth("oauth_apple")}
                                 className="w-full"
@@ -231,7 +231,7 @@ const SignUpForm = () => {
                             <Button
                                 size="lg"
                                 type="button"
-                                variant="tertiary"
+                                variant="secondary" 
                                 disabled={isGoogleLoading || isAppleLoading}
                                 onClick={() => setIsEmailOpen(false)}
                                 className="w-full"
@@ -282,7 +282,7 @@ const SignUpForm = () => {
                                         asChild
                                         type="button"
                                         disabled={isCodeLoading}
-                                        variant="tertiary"
+                                        variant="secondary" 
                                         className="w-full"
                                     >
                                         <Link href="https://mail.google.com" target="_blank">
@@ -293,7 +293,7 @@ const SignUpForm = () => {
                                         asChild
                                         type="button"
                                         disabled={isCodeLoading}
-                                        variant="tertiary"
+                                        variant="secondary" 
                                         className="w-full"
                                     >
                                         <Link href="https://outlook.live.com" target="_blank">
