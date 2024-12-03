@@ -224,7 +224,7 @@ const SignInForm = () => {
                                 type="button"
                                 disabled={isGoogleLoading || isAppleLoading || isEmailLoading}
                                 onClick={() => handleOAuth("oauth_google")}
-                                variant="tertiary"
+                                variant="secondary" 
                                 className="w-full flex items-center justify-center relative"
                             >
                                 <span className="absolute left-4 flex items-center">
@@ -243,7 +243,7 @@ const SignInForm = () => {
                                 type="button"
                                 disabled={isGoogleLoading || isAppleLoading || isEmailLoading}
                                 onClick={() => handleOAuth("oauth_apple")}
-                                variant="tertiary"
+                                variant="secondary" 
                                 className="w-full flex items-center justify-center relative"
                             >
                                 <span className="absolute left-4 flex items-center">
@@ -260,7 +260,7 @@ const SignInForm = () => {
                             <Button
                                 size="lg"
                                 type="button"
-                                variant="tertiary"
+                                variant="secondary" 
                                 disabled={isGoogleLoading || isAppleLoading || isEmailLoading}
                                 onClick={() => setIsEmailOpen(false)}
                                 className="w-full flex items-center justify-center relative"
@@ -311,7 +311,7 @@ const SignInForm = () => {
                                         asChild
                                         type="button"
                                         disabled={isCodeLoading}
-                                        variant="tertiary"
+                                        variant="secondary" 
                                         className="w-full"
                                     >
                                         <Link href="https://mail.google.com" target="_blank">
@@ -323,7 +323,7 @@ const SignInForm = () => {
                                         asChild
                                         type="button"
                                         disabled={isCodeLoading}
-                                        variant="tertiary"
+                                        variant="secondary" 
                                         className="w-full"
                                     >
                                         <Link href="https://outlook.live.com" target="_blank">
