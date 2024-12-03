@@ -66,7 +66,7 @@ const DashboardSidebar = () => {
                         )
                     })}
                 </ul>
-                <div className="mt-auto flex flex-col gap-2 w-full px-1">
+                {/* <div className="mt-auto flex flex-col gap-2 w-full px-1">
                     <Container delay={0.3}>
                         <Button
                             variant="ghost"
@@ -77,7 +77,7 @@ const DashboardSidebar = () => {
                             Sign out
                         </Button>
                     </Container>
-                </div>
+                </div> */}
             </div>
         </div>
     )
